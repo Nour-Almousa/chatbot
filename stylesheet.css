@@ -1,0 +1,146 @@
+body
+{
+    margin:0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    
+}
+.containers2
+{
+    margin: 90px 10px;
+}
+.top, .middle, .bottom
+{
+    text-align: center;
+    margin: 50px
+}
+#r, #s, #l
+{
+    margin-left: 50px;
+    margin-right: 18px
+}
+#r
+{
+    background-color: #800517;
+}
+#l
+{
+    background-color: #4169E1;
+}
+#b
+{
+    background-color: #387C44;
+}
+#f
+{
+    background-color: #C68E17;
+}
+#c1
+{
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+    float:left;
+}
+#s
+{
+    background-color: #616D7E;
+}
+#c2
+{
+    width: 50%;
+    height: 100%;
+    float:right;
+}
+.containers
+{
+    display: inline-block;
+}
+.btn
+{
+    font-size: 32px!important;
+    padding: 25px;
+}
+.button
+{
+    font-size: 25px!important;
+    padding: 15px;
+    background-color: #424242!important;
+}
+.btn, .button
+{
+    color: aliceblue;
+    font-size: 24px;
+    box-shadow: 0 4px #424242;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+.btn:hover, .button:hover
+{
+    background-color: whitesmoke!important;
+    color: #1C2833;
+    cursor: pointer;
+}
+.btn:active, .button
+{
+  background-color: #2E64FE;
+  box-shadow: 0 0px;
+  transform: translateY(4px);
+}
+.slider
+{
+    -webkit-appearance: none;
+    height: 11px;
+    background: white;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px #424242;
+}
+.slider::-webkit-slider-thumb
+{
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #1C2833 ;
+    border-radius: 50%;
+}
+
+input[type=range]
+{
+    width: 70%;
+}
+label
+{
+    color: #1C2833 ;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.motors
+{   
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 70px;
+}
+#buttonscontainer
+{
+    margin: 5% 35%;
+}
+.val
+{
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bold;    
+}
+.title
+{
+    text-align:center; 
+    letter-spacing:5px;
+    box-shadow: 0px 0px 30px 11px #922B21!important;
+}
+
+
